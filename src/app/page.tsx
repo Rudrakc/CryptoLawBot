@@ -184,6 +184,19 @@ export default function Chatbot() {
           </form>
         </div>
       </div>
+      <footer className="w-full bg-muted py-4 text-center text-sm text-muted-foreground">
+        <p>
+          ⚠️ This AI agent is not a lawyer and its responses do not constitute
+          legal advice. For tailored legal advice, consult a professional.
+        </p>
+        <p className="mt-2">
+          Need expert consultation?{" "}
+          <a className="underline">
+            Contact our legal team
+          </a>
+          .
+        </p>
+      </footer>
     </div>
   );
 }
